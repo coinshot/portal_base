@@ -3,13 +3,14 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 
 # APP
-# gem 'comforo'
+gem 'comfortable_mexican_sofa'
+# gem 'forum_monster'
+
 
 # CONTROLLER
 gem 'warden'
 gem 'devise'
 gem 'cancan'
-
 gem 'inherited_resources'
 gem 'will_paginate'
 
@@ -18,7 +19,6 @@ gem 'will_paginate'
 gem 'pg'
 gem 'seed-fu'
 gem 'paperclip'
-gem 'protected_attributes'
 
 
 # VIEWS
@@ -26,8 +26,7 @@ gem 'slim'
 gem 'spreadsheet'
 gem 'formtastic'
 
-
-group :assets do
+# group :assets do
   gem 'less-rails'
   gem 'sass-rails'
   gem 'uglifier'
@@ -36,7 +35,7 @@ group :assets do
   gem 'jquery-rails'
   gem 'turbolinks'
   gem 'jbuilder'
-end
+# end
 
 
 group :development do
