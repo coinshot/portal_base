@@ -142,6 +142,8 @@ GEM
     less-rails (2.5.0)
       actionpack (>= 3.1)
       less (~> 2.5.0)
+    less-rails-bootstrap (3.1.1.1)
+      less-rails (~> 2.5.0)
     libv8 (3.16.14.3)
     listen (2.7.1)
       celluloid (>= 0.15.2)
@@ -295,6 +297,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   less-rails
+  less-rails-bootstrap
   paperclip
   pg
   rails (= 4.0.3)

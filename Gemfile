@@ -25,6 +25,7 @@ gem 'paperclip'
 gem 'slim'
 gem 'spreadsheet'
 gem 'formtastic'
+gem 'less-rails-bootstrap'
 
 # group :assets do
   gem 'less-rails'
